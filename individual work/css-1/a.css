@@ -1,0 +1,15 @@
+h1 {
+    color: #FFA500;
+    size: 30px;
+    width: bold;
+}
+h2{
+    color: #0000FF;
+    size: 16px;
+    width: normal;
+}
+p {
+    color: #00FF00;
+    size: 25px;
+    width: 600;
+}
