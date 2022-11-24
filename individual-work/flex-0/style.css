@@ -1,0 +1,29 @@
+.block{
+    display: flex;
+    background-color: rgba(137, 206, 137, 0.986);
+    width: 800px;
+    height: 50vh;
+    margin:auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemF{
+    background-color: rgba(241, 178, 197, 0.918);
+    display: flex;
+    width: 99%;
+    max-height:70px;
+    justify-content: space-between;
+}
+.itemF2{
+    display:flex;
+    background-color: rgba(241, 178, 197, 0.918);
+    max-height: 70px;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.text{
+    margin: 25px;
+    max-height: 100px;
+    color: black;
+}
