@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
+.header{
+  padding-top: 15px;
+  display: flex;
+  width: 100%;
+  max-height:5rem;
+  justify-content:space-around;
+  flex-direction:row;
+}
+.headline-1{
+  min-height: 15vh;
+  font-size: 40px;
+  align-self: center;
+  text-align: center;
+  padding-top: 10vh;
+}
+.navbar{
+  padding-top: 2rem;
+  justify-content: space-between;
+  display: flex;
+  width: 200px;
+}
+img {
+  height: 100%;
+}
+.hero-img img {
+  box-shadow: -15px -15px 0 0 orange;
+  margin: 10px;
+  max-width: 70vh;
+}
+.hero-section{
+  margin-left: 12.5%;
+  max-width: 70%;
+  display: flex;
+  background-color: #f2b880;
+  padding: 10vh;
+  justify-content: space-evenly;
+  min-height: 20vh;
+}
